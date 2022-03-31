@@ -15,8 +15,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
     - [To clone this project](#to-clone-this-project)
   - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -30,9 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
-<img src="./src/images/ss1.png" alt="drawing" width="400"/>
-<img src="./src/images/ss2.png" alt="drawing" width="400"/>
-
+![Page1](./src/images/ss1.png)
+![Page2](./src/images/ss2.png)
 
 ### Links
 
