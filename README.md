@@ -1,82 +1,94 @@
-<div align="center" id="top"> 
-  
+# Frontend Mentor - Interactive rating component
 
-  <!-- <a href="https://frontendchallenges.netlify.app">Demo</a> -->
-</div>
+![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
 
-<h1 align="center">Frontend Challenges</h1>
+## Welcome! 👋
 
-<p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/emrebal98/frontend-challenges?color=56BEB8">
+Thanks for checking out this front-end coding challenge.
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/emrebal98/frontend-challenges?color=56BEB8">
+[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/emrebal98/frontend-challenges?color=56BEB8">
+**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
 
-  <img alt="License" src="https://img.shields.io/github/license/emrebal98/frontend-challenges?color=56BEB8">
+## The challenge
 
-  <img alt="Github issues" src="https://img.shields.io/github/issues/emrebal98/frontend-challenges?color=56BEB8" />
+Your challenge is to build out this interactive rating component and get it looking as close to the design as possible.
 
-  <img alt="Github forks" src="https://img.shields.io/github/forks/emrebal98/frontend-challenges?color=56BEB8" />
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
-  <img alt="Github stars" src="https://img.shields.io/github/stars/emrebal98/frontend-challenges?color=56BEB8" />
-</p>
+Your users should be able to:
 
-<hr>
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Select and submit a number rating
+- See the "Thank you" card state after submitting a rating
 
-<p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/emrebal98" target="_blank">Author</a>
-</p>
+Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
-<br>
+## Where to find everything
 
-## :dart: About ##
+Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
 
-Collection of the frontend challenges that I completed on [Frontend Mentor](https://www.frontendmentor.io/challenges)
+The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
 
-## :rocket: Technologies ##
+If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
 
-The following tools were used in this project:
+You will find all the required assets in the `/images` folder. The assets are already optimized.
 
-  
-- [React](https://pt-br.reactjs.org/)
-- [Sass](https://sass-lang.com/)
+There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
 
-## :white_check_mark: Requirements ##
+## Building your project
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
 
-## :checkered_flag: Starting ##
+1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
+2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
+3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
+4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
+5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
+6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
 
-```bash
-# Clone this project
-$ git clone https://github.com/emrebal98/frontend-challenges
+## Deploying your project
 
-# Access
-$ cd frontend-challenges
+As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
 
-# Install dependencies
-$ yarn
+- [GitHub Pages](https://pages.github.com/)
+- [Vercel](https://vercel.com/)
+- [Netlify](https://www.netlify.com/)
 
-# Run the project
-$ yarn start
+You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
 
-# The server will initialize in the <http://localhost:3000>
-```
+## Create a custom `README.md`
 
-## :memo: License ##
+We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
 
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
 
+Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
 
-Made with :heart: by <a href="https://github.com/emrebal98" target="_blank">Emre BAL</a>
+## Submitting your solution
 
-&#xa0;
+Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
 
-<a href="#top">Back to top</a>
+Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+
+## Sharing your solution
+
+There are multiple places you can share your solution:
+
+1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack). 
+2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
+3. Share your solution on other social channels like LinkedIn.
+4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+
+We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+
+The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+
+## Got feedback for us?
+
+We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+
+This challenge is completely free. Please share it with anyone who will find it useful for practice.
+
+**Have fun building!** 🚀
