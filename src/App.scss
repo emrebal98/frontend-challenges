@@ -1,0 +1,161 @@
+$orange: hsl(25, 97%, 53%);
+$white: hsl(0, 0%, 100%);
+$light-grey: hsl(217, 12%, 63%);
+$medium-grey: hsl(216, 12%, 54%);
+$dark-blue: hsl(213, 19%, 18%);
+$very-dark-blue: hsl(216, 12%, 8%);
+
+$font-size: 15px;
+$font-family: "Overpass", sans-serif;
+
+$margin-y: 1.3rem;
+$margin-x: 1.5rem;
+
+.App {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: $very-dark-blue;
+}
+
+.rating {
+	& {
+		/* ff 3.6+ */
+		background: -moz-radial-gradient(
+			circle at 50% 0%,
+			rgba(37, 45, 55, 1) 20%,
+			rgba(18, 20, 23, 1) 100%
+		);
+
+		/* safari 5.1+,chrome 10+ */
+		background: -webkit-radial-gradient(
+			circle at 50% 0%,
+			rgba(37, 45, 55, 1) 20%,
+			rgba(18, 20, 23, 1) 100%
+		);
+
+		/* opera 11.10+ */
+		background: -o-radial-gradient(
+			circle at 50% 0%,
+			rgba(37, 45, 55, 1) 20%,
+			rgba(18, 20, 23, 1) 100%
+		);
+
+		/* ie 10+ */
+		background: -ms-radial-gradient(
+			circle at 50% 0%,
+			rgba(37, 45, 55, 1) 20%,
+			rgba(18, 20, 23, 1) 100%
+		);
+
+		/* global 92%+ browsers support */
+		background: radial-gradient(
+			circle at 50% 0%,
+			rgba(37, 45, 55, 1) 20%,
+			rgba(18, 20, 23, 1) 100%
+		);
+		width: 375px;
+		height: 375px;
+		border-radius: 1rem;
+	}
+
+	.icon {
+		margin: $margin-y $margin-x;
+		padding: 0.6rem;
+		background-color: $dark-blue;
+		border-radius: 50%;
+		width: 36px;
+		height: 36px;
+	}
+
+	.title {
+		font-family: $font-family;
+		color: $white;
+		margin: 0 $margin-x $margin-y;
+	}
+
+	.description {
+		font-family: $font-family;
+		font-size: $font-size;
+		font-weight: 400;
+		color: $light-grey;
+		margin: 0 $margin-x $margin-y;
+	}
+
+	.rating-buttons {
+		& {
+			margin: $margin-y * 1.8 $margin-x $margin-y * 1.8;
+			width: calc(100% - $margin-x * 1.8);
+			display: flex;
+			justify-content: space-around;
+		}
+
+		button {
+			border: none;
+			background-color: $dark-blue;
+			color: $white;
+			padding: 1rem;
+			// margin-right: 1rem;
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+			cursor: pointer;
+
+			&:hover {
+				background-color: $orange;
+			}
+
+			&:focus {
+				background-color: $light-grey;
+			}
+		}
+	}
+
+	.submit-button {
+		margin: 0 $margin-x $margin-y * 2;
+		border: none;
+		background-color: $white;
+		color: $orange;
+		border-radius: 1rem;
+		padding: 0.6rem;
+		width: calc(100% - $margin-x * 2);
+		font-family: $font-family;
+		font-size: $font-size;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.1rem;
+		cursor: pointer;
+
+		&:hover {
+			background-color: $orange;
+			color: $white;
+		}
+	}
+
+	&.after {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+		.rating-result {
+			color: $orange;
+			background-color: $dark-blue;
+			padding: 0.5rem;
+			border-radius: 1rem;
+			margin: 1rem;
+			font-family: $font-family;
+			font-size: $font-size;
+			font-weight: 400;
+		}
+
+		.title {
+			margin-top: 1rem;
+		}
+
+		.description {
+			text-align: center;
+		}
+	}
+}
