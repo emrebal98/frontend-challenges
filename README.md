@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution](https://github.com/emrebal98/frontend-challenges/tree/interactive-rating-component)
-- Live Site URL: [demo](https://your-live-site-url.com)
+- Live Site URL: [demo](https://emrebal98.github.io/frontend-challenges/interactive-rating-component/)
 
 ## My process
 
