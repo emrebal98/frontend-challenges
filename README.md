@@ -38,7 +38,7 @@
 
 Collection of the frontend challenges that I completed on [Frontend Mentor](https://www.frontendmentor.io/challenges).
 
-**Live: [Frontend Challenges](https://emrebal98.github.io/react-icons-viewer/)**
+**Live: [Frontend Challenges](https://emrebal98.github.io/frontend-challenges/)**
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
