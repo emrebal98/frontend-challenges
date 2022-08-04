@@ -1,0 +1,92 @@
+:root {
+	--bright-orange: hsl(31, 77%, 52%);
+	--dark-cyan: hsl(184, 100%, 22%);
+	--very-dark-cyan: hsl(179, 100%, 13%);
+	--light-gray: hsla(0, 0%, 100%, 0.75);
+	--very-light-gray: hsl(0, 0%, 95%);
+}
+
+.app {
+	font-family: "Lexend Deca", sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.app > .card {
+	color: var(--very-light-gray);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 2rem;
+	padding: 2rem;
+}
+
+.app > .card:nth-child(1) {
+	background-color: var(--bright-orange);
+	border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.app > .card:nth-child(2) {
+	background-color: var(--dark-cyan);
+}
+
+.app > .card:nth-child(3) {
+	background-color: var(--very-dark-cyan);
+	border-radius: 0 0.25rem 0.25rem 0;
+}
+
+.app > .card > h1 {
+	font-family: "Big Shoulders Display", cursive;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.app > .card > p {
+	color: var(--light-gray);
+	width: 13rem;
+}
+
+.app > .card > button {
+	border: 2px solid transparent;
+	background-color: var(--very-light-gray);
+	padding: 0.6rem 1.2rem;
+	border-radius: 2rem;
+	margin-top: 2rem;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.app > .card:nth-child(1) > button {
+	color: var(--bright-orange);
+}
+.app > .card:nth-child(2) > button {
+	color: var(--dark-cyan);
+}
+.app > .card:nth-child(3) > button {
+	color: var(--very-dark-cyan);
+}
+
+.app > .card > button:hover {
+	background-color: transparent;
+	border: 2px solid var(--very-light-gray);
+	color: var(--very-light-gray);
+}
+
+@media (max-width: 816px) {
+	.app {
+		flex-direction: column;
+	}
+
+	.app > .card:nth-child(1) {
+		border-radius: 0.25rem 0.25rem 0 0;
+	}
+
+	.app > .card:nth-child(3) {
+		border-radius: 0 0 0.25rem 0.25rem;
+	}
+}
