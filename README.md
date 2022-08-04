@@ -22,8 +22,6 @@
   <img alt="Github stars" src="https://img.shields.io/github/stars/emrebal98/frontend-challenges?color=56BEB8" />
 </p>
 
-<hr>
-
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
@@ -38,8 +36,9 @@
 
 ## :dart: About ##
 
-Collection of the frontend challenges that I completed on [Frontend Mentor](https://www.frontendmentor.io/challenges)
+Collection of the frontend challenges that I completed on [Frontend Mentor](https://www.frontendmentor.io/challenges).
 
+**Live: [Frontend Challenges](https://emrebal98.github.io/react-icons-viewer/)**
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
@@ -60,6 +59,9 @@ $ git clone https://github.com/emrebal98/frontend-challenges
 
 # Access
 $ cd frontend-challenges
+
+# Go to desired branch
+$ git checkout {BRANCH_NAME}
 
 # Install dependencies
 $ yarn
