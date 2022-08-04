@@ -42,7 +42,7 @@ Users should be able to:
 
 -   [React](https://reactjs.org/) - JS library
 
--   [Sass](https://sass-lang.com/) - For styles
+-   [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS) - For styles
 
 ### To clone this project
 
