@@ -1,84 +1,73 @@
-<div align="center" id="top"> 
-  
+# Frontend Mentor - Todo app solution
 
-  <!-- <a href="https://frontendchallenges.netlify.app">Demo</a> -->
-</div>
+This is a solution to the [Todo app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-<h1 align="center">Frontend Challenges</h1>
+## Table of contents
 
-<p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/emrebal98/frontend-challenges?color=56BEB8">
+- [Frontend Mentor - Todo app solution](#frontend-mentor---todo-app-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [To clone this project](#to-clone-this-project)
+  - [Author](#author)
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/emrebal98/frontend-challenges?color=56BEB8">
+## Overview
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/emrebal98/frontend-challenges?color=56BEB8">
+### The challenge
 
-  <img alt="License" src="https://img.shields.io/github/license/emrebal98/frontend-challenges?color=56BEB8">
+Users should be able to:
 
-  <img alt="Github issues" src="https://img.shields.io/github/issues/emrebal98/frontend-challenges?color=56BEB8" />
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Add new todos to the list
+- Mark todos as complete
+- Delete todos from the list
+- Filter by all/active/complete todos
+- Clear all completed todos
+- Toggle light and dark mode
+- **Bonus**: Drag and drop to reorder items on the list
 
-  <img alt="Github forks" src="https://img.shields.io/github/forks/emrebal98/frontend-challenges?color=56BEB8" />
+### Screenshot
 
-  <img alt="Github stars" src="https://img.shields.io/github/stars/emrebal98/frontend-challenges?color=56BEB8" />
-</p>
+![Page1](./src/assets/ss1.png)
+![Page2](./src/assets/ss2.png)
 
-<p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/emrebal98" target="_blank">Author</a>
-</p>
+### Links
 
-<br>
+- Solution URL: [solution](https://github.com/emrebal98/frontend-challenges/tree/todo-app)
+- Live Site URL: [demo](https://emrebal98.github.io/frontend-challenges/todo-app/)
 
-## :dart: About ##
+## My process
 
-Collection of the frontend challenges that I completed on [Frontend Mentor](https://www.frontendmentor.io/challenges).
+### Built with
 
-**Live: [Frontend Challenges](https://emrebal98.github.io/frontend-challenges/)**
-## :rocket: Technologies ##
+- [React](https://reactjs.org/) - JS library
 
-The following tools were used in this project:
+- [Styled Components](https://styled-components.com/) - For styles
 
-  
-- [React](https://pt-br.reactjs.org/)
-- [Sass](https://sass-lang.com/)
 
-## :white_check_mark: Requirements ##
+### To clone this project
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
-
-## :checkered_flag: Starting ##
+Do the following steps
 
 ```bash
 # Clone this project
-$ git clone https://github.com/emrebal98/frontend-challenges
-
-# Access
-$ cd frontend-challenges
-
-# Go to desired branch
-$ git checkout {BRANCH_NAME}
-
-# Install dependencies
-$ yarn
-
+$ git clone -b "todo-app" https://github.com/emrebal98/frontend-challenges.git
+```
+```bash
 # Run the project
-$ yarn start
+$ cd frontend-challenges
+$ npm install # Install dependencies
+$ npm start
 
-# The server will initialize in the <http://localhost:3000>
+# The client will initialize in the <http://localhost:3000>
 ```
 
-## :memo: License ##
+## Author
 
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
-
-
-Made with :heart: by <a href="https://github.com/emrebal98" target="_blank">Emre BAL</a>
-
-&#xa0;
-
-<a href="#top">Back to top</a>
+- Website - [Emre BAL](https://github.com/emrebal98)
+- Frontend Mentor - [@emrebal98](https://www.frontendmentor.io/profile/emrebal98)
